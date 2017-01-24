@@ -1,0 +1,16 @@
+%h1 Enter Rental Details
+
+%form
+  = label :plant, :name, "Plant name"
+  = text_field :plant, :name
+  %br
+    %br
+  = label :user, :start_date, "Start date"
+  = date_field :plant, :start_date
+  %br
+    %br
+  = label :plant, :end_date, "End date"
+  = password_field :plant, :end_date
+  %br
+    %br
+  %input{:type => "submit", :value => "Query plant catalog"}
